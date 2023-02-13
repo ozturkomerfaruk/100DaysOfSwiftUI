@@ -35,7 +35,7 @@ RoundedRectangle (cornerRadius: 25.0)
 .shadow(color: .black.opacity(1), radius: 20.0, x: -20, y: -20)
 ```
 
-##Icon
+## Icon
 
 ```
 Image (systemName: "star.fill")
@@ -52,3 +52,79 @@ Image (systemName: "star.fill")
     //.clipped()
 ```
 
+## Image
+
+```
+Image("omer")
+    .resizable()
+//.aspectRatio(contentMode: .fit)
+    .scaledToFit()
+//.scaledToFill()
+    .foregroundColor(.black)
+    .frame(width: 300, height: 500)
+//.clipped()
+//.cornerRadius(30)
+    .clipShape(Circle())
+```
+## Frame
+
+```
+Text("Hello, World!")
+    .background(Color.orange)
+    .frame(height: 100)
+    .background(Color.blue)
+    .frame(width: 150, height: 150)
+    .background(Color.green)
+    .frame(width: .infinity, height: 200, alignment: .top)
+    .background(Color.red)
+    .frame(width: 350, height: 700, alignment: .leading)
+    .background(Color.pink)
+```
+
+## HStack, VStack, ZStack
+
+```
+ZStack (alignment: .center) {
+            Rectangle ()
+                .fill (Color.red)
+                .frame (width: 300, height: 500)
+            VStack {
+                Text("Ömer")
+                    .underline(color: Color.green)
+                Rectangle ()
+                    .fill (Color.black)
+                    .frame (width: 50, height: 50)
+                Rectangle ()
+                    .fill (Color.blue)
+                    .frame (width: 100, height: 100)
+                HStack {
+                    Rectangle ()
+                        .fill (Color.orange)
+                        .frame (width: 50, height: 50)
+                    Rectangle ()
+                        .fill (Color.green)
+                        .frame (width: 100, height: 100)
+                }
+                .background(Color.purple)
+            }
+            .background(Color.white)
+        }
+```
+
+## Padding
+
+```
+VStack {
+    Text("Hello, World!")
+        .font(.largeTitle)
+        .fontWeight(.bold)
+        .padding(.bottom, 20)
+    Text ("This is therdescription of what we will do on this screen. It is multiple lines and we will align the text to the leading edge.")
+}
+.padding(.horizontal, 20)
+.background(
+    Color.white
+        .padding(.horizontal, 20)
+        .shadow(color: Color.blue, radius: 30)
+)
+```
