@@ -128,3 +128,75 @@ VStack {
         .shadow(color: Color.blue, radius: 30)
 )
 ```
+## Spacer
+
+```
+ VStack {
+    Rectangle()
+        .fill(Color.green)
+        .frame(width: 100, height: 100)
+    Rectangle()
+        .fill(Color.red)
+        .frame(width: 100, height: 100)
+    Spacer()
+        .frame(width: 20)
+        .background(Color.orange)
+        .cornerRadius(20)
+        .padding(20)
+    Rectangle()
+        .fill(Color.yellow)
+        .frame(width: 100, height: 100)
+    Rectangle()
+        .fill(Color.blue)
+        .frame(width: 100, height: 100)
+}
+```
+
+## ScrollView
+
+```
+ScrollView (.vertical) {
+    VStack (alignment: .center) {
+        ForEach(0..<5) { i in
+            ScrollView (.horizontal) {
+                HStack (alignment: .center) {
+                    ForEach (0..<10)  { i in
+                        RoundedRectangle (cornerRadius: 25.0)
+                            .fill (Color.white)
+                            .frame (width: 100, height: 75)
+                            .shadow (radius: 10)
+                            .padding(.leading, 90)
+                            .padding(.top, 40)
+                            .padding(.bottom, 40)
+                    }
+                }
+            }
+        }
+    }
+}
+```
+
+## LazyVGrid
+
+```
+ let columns: [GridItem] = [
+    GridItem(.fixed(25), spacing: nil, alignment: nil),
+    GridItem(.fixed(50), spacing: nil, alignment: nil),
+    GridItem(.fixed(75), spacing: nil, alignment: nil),
+    GridItem(.fixed(75), spacing: nil, alignment: nil),
+    GridItem(.fixed(50), spacing: nil, alignment: nil),
+    GridItem(.fixed(25), spacing: nil, alignment: nil)
+]
+
+var body: some View {
+    ScrollView {
+        LazyVGrid (columns: columns) {
+            ForEach(1..<101) {
+                i in
+                Circle()
+            }
+        }
+    }
+}
+```
+
