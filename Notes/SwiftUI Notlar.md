@@ -34,3 +34,21 @@ RoundedRectangle (cornerRadius: 25.0)
 .frame (width: 300, height: 200)
 .shadow(color: .black.opacity(1), radius: 20.0, x: -20, y: -20)
 ```
+
+##Icon
+
+```
+Image (systemName: "star.fill")
+    //.renderingMode (.original)
+        .font(.largeTitle)
+    //.font (.system(size: 200))
+    //.font (.largeTitle)
+        .foregroundColor(.blue)
+    //.resizable ()
+    //.aspectRatio(contentMode:.fit)
+    //.scaledToFit ()
+    //.scaledToF111 ()
+    //.frame (width: 300, height: 300)
+    //.clipped()
+```
+
