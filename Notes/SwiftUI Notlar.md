@@ -200,4 +200,19 @@ var body: some View {
 }
 ```
 
-https://www.youtube.com/watch?v=_0NDKxvfg40&list=PLwvDm4VfkdphqETTBf-DdjCoAvhai1QpO&index=18
+## Button
+```
+Button {
+
+} label: {
+    Text("Save")
+        .font(.caption)
+        .bold()
+        .foregroundColor(.gray)
+        .padding()
+        .background(Capsule()
+            .stroke(Color.gray, lineWidth: 3))
+}
+```
+
+//https://www.youtube.com/watch?v=h1QdmK5fSIg&list=PLwvDm4VfkdphqETTBf-DdjCoAvhai1QpO&index=22
