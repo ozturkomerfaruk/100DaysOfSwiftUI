@@ -7,7 +7,7 @@
 Rectangle ()
 RoundedRectangle(cernerRadius: 10)
 //.fill (Color .green)
-//•foregroundColor (pink)
+//.foregroundColor (pink)
 //.stroke ()
 //.stroke (Color.red) //.stroke(Color.blue, lineWidth: 30)
 //.stroke(Color.orange, style:
