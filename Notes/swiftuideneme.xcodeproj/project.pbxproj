@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040A6F60299B7CE10083A490 /* NavigationViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F5F299B7CE10083A490 /* NavigationViewView.swift */; };
+		040A6F62299B97D70083A490 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F61299B97D70083A490 /* ListView.swift */; };
+		040A6F64299BA2C10083A490 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F63299BA2C10083A490 /* ActionSheetView.swift */; };
+		040A6F66299BA5D60083A490 /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F65299BA5D60083A490 /* ContextMenuView.swift */; };
 		04525F05299A0FD100468C30 /* swiftuidenemeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04525F04299A0FD100468C30 /* swiftuidenemeApp.swift */; };
 		04525F07299A0FD100468C30 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04525F06299A0FD100468C30 /* ShapesView.swift */; };
 		04525F09299A0FD100468C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04525F08299A0FD100468C30 /* Assets.xcassets */; };
@@ -29,6 +33,12 @@
 		0467DCA9299ABF6A0013CF5F /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467DCA8299ABF6A0013CF5F /* ButtonView.swift */; };
 		0467DCAB299AC6E10013CF5F /* StateHowToUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467DCAA299AC6E10013CF5F /* StateHowToUseView.swift */; };
 		0467DCAD299AC84F0013CF5F /* ExtractedFunctionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467DCAC299AC84F0013CF5F /* ExtractedFunctionView.swift */; };
+		04D2C0AF299B5F4900263189 /* HowToExtractSubviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2C0AE299B5F4900263189 /* HowToExtractSubviewsView.swift */; };
+		04D2C0B1299B62A800263189 /* HowToBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2C0B0299B62A800263189 /* HowToBindingView.swift */; };
+		04D2C0B3299B653800263189 /* ConditionalStatementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2C0B2299B653800263189 /* ConditionalStatementView.swift */; };
+		04D2C0B5299B673900263189 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2C0B4299B673900263189 /* AnimationView.swift */; };
+		04D2C0B7299B6F2100263189 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2C0B6299B6F2100263189 /* TransitionView.swift */; };
+		04D2C0B9299B735700263189 /* SheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2C0B8299B735700263189 /* SheetsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040A6F5F299B7CE10083A490 /* NavigationViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewView.swift; sourceTree = "<group>"; };
+		040A6F61299B97D70083A490 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		040A6F63299BA2C10083A490 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
+		040A6F65299BA5D60083A490 /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
 		04525F01299A0FD100468C30 /* swiftuideneme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuideneme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04525F04299A0FD100468C30 /* swiftuidenemeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuidenemeApp.swift; sourceTree = "<group>"; };
 		04525F06299A0FD100468C30 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
@@ -74,6 +88,12 @@
 		0467DCA8299ABF6A0013CF5F /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		0467DCAA299AC6E10013CF5F /* StateHowToUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateHowToUseView.swift; sourceTree = "<group>"; };
 		0467DCAC299AC84F0013CF5F /* ExtractedFunctionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionView.swift; sourceTree = "<group>"; };
+		04D2C0AE299B5F4900263189 /* HowToExtractSubviewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToExtractSubviewsView.swift; sourceTree = "<group>"; };
+		04D2C0B0299B62A800263189 /* HowToBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToBindingView.swift; sourceTree = "<group>"; };
+		04D2C0B2299B653800263189 /* ConditionalStatementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalStatementView.swift; sourceTree = "<group>"; };
+		04D2C0B4299B673900263189 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		04D2C0B6299B6F2100263189 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
+		04D2C0B8299B735700263189 /* SheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +196,16 @@
 				0467DCA8299ABF6A0013CF5F /* ButtonView.swift */,
 				0467DCAA299AC6E10013CF5F /* StateHowToUseView.swift */,
 				0467DCAC299AC84F0013CF5F /* ExtractedFunctionView.swift */,
+				04D2C0AE299B5F4900263189 /* HowToExtractSubviewsView.swift */,
+				04D2C0B0299B62A800263189 /* HowToBindingView.swift */,
+				04D2C0B2299B653800263189 /* ConditionalStatementView.swift */,
+				04D2C0B4299B673900263189 /* AnimationView.swift */,
+				04D2C0B6299B6F2100263189 /* TransitionView.swift */,
+				04D2C0B8299B735700263189 /* SheetsView.swift */,
+				040A6F5F299B7CE10083A490 /* NavigationViewView.swift */,
+				040A6F61299B97D70083A490 /* ListView.swift */,
+				040A6F63299BA2C10083A490 /* ActionSheetView.swift */,
+				040A6F65299BA5D60083A490 /* ContextMenuView.swift */,
 			);
 			path = SwiftfulThinking;
 			sourceTree = "<group>";
@@ -313,19 +343,29 @@
 				04525F38299A307000468C30 /* FrameView.swift in Sources */,
 				04525F42299A50E800468C30 /* InitializerView.swift in Sources */,
 				0467DCA9299ABF6A0013CF5F /* ButtonView.swift in Sources */,
+				04D2C0B7299B6F2100263189 /* TransitionView.swift in Sources */,
 				04525F48299A6CF400468C30 /* LazyGrid.swift in Sources */,
+				04D2C0B9299B735700263189 /* SheetsView.swift in Sources */,
+				040A6F66299BA5D60083A490 /* ContextMenuView.swift in Sources */,
 				04525F3A299A4AAB00468C30 /* StackView.swift in Sources */,
+				040A6F62299B97D70083A490 /* ListView.swift in Sources */,
 				0467DCAD299AC84F0013CF5F /* ExtractedFunctionView.swift in Sources */,
 				04525F3E299A4EFC00468C30 /* SpacerView.swift in Sources */,
 				04525F36299A2EDD00468C30 /* ImageView.swift in Sources */,
+				040A6F60299B7CE10083A490 /* NavigationViewView.swift in Sources */,
+				040A6F64299BA2C10083A490 /* ActionSheetView.swift in Sources */,
 				04525F46299A53D200468C30 /* ScrollViewView.swift in Sources */,
 				04525F34299A291100468C30 /* SymbolsView.swift in Sources */,
 				04525F07299A0FD100468C30 /* ShapesView.swift in Sources */,
 				04525F31299A24A300468C30 /* ColorView.swift in Sources */,
 				04525F3C299A4D7800468C30 /* PaddingView.swift in Sources */,
 				0467DCAB299AC6E10013CF5F /* StateHowToUseView.swift in Sources */,
+				04D2C0AF299B5F4900263189 /* HowToExtractSubviewsView.swift in Sources */,
 				04525F05299A0FD100468C30 /* swiftuidenemeApp.swift in Sources */,
 				04525F4A299A6F3900468C30 /* IgnoringSafeAreaView.swift in Sources */,
+				04D2C0B3299B653800263189 /* ConditionalStatementView.swift in Sources */,
+				04D2C0B5299B673900263189 /* AnimationView.swift in Sources */,
+				04D2C0B1299B62A800263189 /* HowToBindingView.swift in Sources */,
 				04525F44299A52E800468C30 /* ForeachView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
