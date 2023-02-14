@@ -9,7 +9,7 @@ import SwiftUI
 
 struct EnvironmentobiectView: View {
     
-    @ObservedObject var viewModel = EnviromentalViewModel()
+    @StateObject var viewModel = EnviromentalViewModel()
     
     var body: some View {
         NavigationView {
