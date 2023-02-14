@@ -11,6 +11,19 @@
 		040A6F62299B97D70083A490 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F61299B97D70083A490 /* ListView.swift */; };
 		040A6F64299BA2C10083A490 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F63299BA2C10083A490 /* ActionSheetView.swift */; };
 		040A6F66299BA5D60083A490 /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F65299BA5D60083A490 /* ContextMenuView.swift */; };
+		040A6F68299BA7350083A490 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F67299BA7350083A490 /* TextFieldView.swift */; };
+		040A6F6A299BAF3B0083A490 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F69299BAF3B0083A490 /* TextEditorView.swift */; };
+		040A6F6C299BB2630083A490 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F6B299BB2630083A490 /* ToggleView.swift */; };
+		040A6F6E299BB41E0083A490 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F6D299BB41E0083A490 /* PickerView.swift */; };
+		040A6F70299BB58C0083A490 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F6F299BB58C0083A490 /* ColorPickerView.swift */; };
+		040A6F72299BB6930083A490 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F71299BB6930083A490 /* DatePickerView.swift */; };
+		040A6F74299BB76F0083A490 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F73299BB76F0083A490 /* StepperView.swift */; };
+		040A6F76299BB7E80083A490 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F75299BB7E80083A490 /* SliderView.swift */; };
+		040A6F78299BB9260083A490 /* TabViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F77299BB9260083A490 /* TabViewView.swift */; };
+		040A6F7C299BBE4E0083A490 /* OnAppearOnDisappearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F7B299BBE4E0083A490 /* OnAppearOnDisappearView.swift */; };
+		040A6F7E299BC4060083A490 /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F7D299BC4060083A490 /* TapGestureView.swift */; };
+		040A6F80299BC4990083A490 /* ViewModelObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F7F299BC4990083A490 /* ViewModelObjectView.swift */; };
+		040A6F82299BC9640083A490 /* EnvironmentobiectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A6F81299BC9640083A490 /* EnvironmentobiectView.swift */; };
 		04525F05299A0FD100468C30 /* swiftuidenemeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04525F04299A0FD100468C30 /* swiftuidenemeApp.swift */; };
 		04525F07299A0FD100468C30 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04525F06299A0FD100468C30 /* ShapesView.swift */; };
 		04525F09299A0FD100468C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04525F08299A0FD100468C30 /* Assets.xcassets */; };
@@ -63,6 +76,19 @@
 		040A6F61299B97D70083A490 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		040A6F63299BA2C10083A490 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
 		040A6F65299BA5D60083A490 /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
+		040A6F67299BA7350083A490 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		040A6F69299BAF3B0083A490 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
+		040A6F6B299BB2630083A490 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		040A6F6D299BB41E0083A490 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		040A6F6F299BB58C0083A490 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		040A6F71299BB6930083A490 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		040A6F73299BB76F0083A490 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		040A6F75299BB7E80083A490 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		040A6F77299BB9260083A490 /* TabViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewView.swift; sourceTree = "<group>"; };
+		040A6F7B299BBE4E0083A490 /* OnAppearOnDisappearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearOnDisappearView.swift; sourceTree = "<group>"; };
+		040A6F7D299BC4060083A490 /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
+		040A6F7F299BC4990083A490 /* ViewModelObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelObjectView.swift; sourceTree = "<group>"; };
+		040A6F81299BC9640083A490 /* EnvironmentobiectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentobiectView.swift; sourceTree = "<group>"; };
 		04525F01299A0FD100468C30 /* swiftuideneme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuideneme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04525F04299A0FD100468C30 /* swiftuidenemeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuidenemeApp.swift; sourceTree = "<group>"; };
 		04525F06299A0FD100468C30 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
@@ -206,6 +232,19 @@
 				040A6F61299B97D70083A490 /* ListView.swift */,
 				040A6F63299BA2C10083A490 /* ActionSheetView.swift */,
 				040A6F65299BA5D60083A490 /* ContextMenuView.swift */,
+				040A6F67299BA7350083A490 /* TextFieldView.swift */,
+				040A6F69299BAF3B0083A490 /* TextEditorView.swift */,
+				040A6F6B299BB2630083A490 /* ToggleView.swift */,
+				040A6F6D299BB41E0083A490 /* PickerView.swift */,
+				040A6F6F299BB58C0083A490 /* ColorPickerView.swift */,
+				040A6F71299BB6930083A490 /* DatePickerView.swift */,
+				040A6F73299BB76F0083A490 /* StepperView.swift */,
+				040A6F75299BB7E80083A490 /* SliderView.swift */,
+				040A6F77299BB9260083A490 /* TabViewView.swift */,
+				040A6F7B299BBE4E0083A490 /* OnAppearOnDisappearView.swift */,
+				040A6F7D299BC4060083A490 /* TapGestureView.swift */,
+				040A6F7F299BC4990083A490 /* ViewModelObjectView.swift */,
+				040A6F81299BC9640083A490 /* EnvironmentobiectView.swift */,
 			);
 			path = SwiftfulThinking;
 			sourceTree = "<group>";
@@ -340,20 +379,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040A6F7E299BC4060083A490 /* TapGestureView.swift in Sources */,
 				04525F38299A307000468C30 /* FrameView.swift in Sources */,
 				04525F42299A50E800468C30 /* InitializerView.swift in Sources */,
 				0467DCA9299ABF6A0013CF5F /* ButtonView.swift in Sources */,
+				040A6F82299BC9640083A490 /* EnvironmentobiectView.swift in Sources */,
+				040A6F72299BB6930083A490 /* DatePickerView.swift in Sources */,
 				04D2C0B7299B6F2100263189 /* TransitionView.swift in Sources */,
 				04525F48299A6CF400468C30 /* LazyGrid.swift in Sources */,
 				04D2C0B9299B735700263189 /* SheetsView.swift in Sources */,
 				040A6F66299BA5D60083A490 /* ContextMenuView.swift in Sources */,
 				04525F3A299A4AAB00468C30 /* StackView.swift in Sources */,
+				040A6F70299BB58C0083A490 /* ColorPickerView.swift in Sources */,
+				040A6F80299BC4990083A490 /* ViewModelObjectView.swift in Sources */,
+				040A6F74299BB76F0083A490 /* StepperView.swift in Sources */,
 				040A6F62299B97D70083A490 /* ListView.swift in Sources */,
+				040A6F7C299BBE4E0083A490 /* OnAppearOnDisappearView.swift in Sources */,
 				0467DCAD299AC84F0013CF5F /* ExtractedFunctionView.swift in Sources */,
 				04525F3E299A4EFC00468C30 /* SpacerView.swift in Sources */,
+				040A6F6A299BAF3B0083A490 /* TextEditorView.swift in Sources */,
 				04525F36299A2EDD00468C30 /* ImageView.swift in Sources */,
 				040A6F60299B7CE10083A490 /* NavigationViewView.swift in Sources */,
 				040A6F64299BA2C10083A490 /* ActionSheetView.swift in Sources */,
+				040A6F6E299BB41E0083A490 /* PickerView.swift in Sources */,
 				04525F46299A53D200468C30 /* ScrollViewView.swift in Sources */,
 				04525F34299A291100468C30 /* SymbolsView.swift in Sources */,
 				04525F07299A0FD100468C30 /* ShapesView.swift in Sources */,
@@ -362,11 +410,15 @@
 				0467DCAB299AC6E10013CF5F /* StateHowToUseView.swift in Sources */,
 				04D2C0AF299B5F4900263189 /* HowToExtractSubviewsView.swift in Sources */,
 				04525F05299A0FD100468C30 /* swiftuidenemeApp.swift in Sources */,
+				040A6F68299BA7350083A490 /* TextFieldView.swift in Sources */,
 				04525F4A299A6F3900468C30 /* IgnoringSafeAreaView.swift in Sources */,
+				040A6F78299BB9260083A490 /* TabViewView.swift in Sources */,
 				04D2C0B3299B653800263189 /* ConditionalStatementView.swift in Sources */,
 				04D2C0B5299B673900263189 /* AnimationView.swift in Sources */,
+				040A6F6C299BB2630083A490 /* ToggleView.swift in Sources */,
 				04D2C0B1299B62A800263189 /* HowToBindingView.swift in Sources */,
 				04525F44299A52E800468C30 /* ForeachView.swift in Sources */,
+				040A6F76299BB7E80083A490 /* SliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
