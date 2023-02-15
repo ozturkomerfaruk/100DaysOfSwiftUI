@@ -4,7 +4,7 @@
 
 **Bu özellik, bir görünümün ömrü boyunca sadece bir kez yaratılan ve yeniden kullanılan bir nesne örneğiyle ilişkilendirilir. Genellikle, bir nesne örneğinin belirli bir görünümün ömrü boyunca bir kez oluşturulmasını ve kullanılmasını istediğimizde kullanılır.**
 
-## @@ObservedObject
+## @ObservedObject
 
 **Bu özellik, bir görünümün özelliklerini güncellemek için kullanılan bir nesne örneğiyle ilişkilendirilir. Bir @ObservedObject özelliği kullanan bir görünüm, özelliğe atanmış olan nesnenin özelliklerinin değişip değişmediğini sürekli olarak izler ve eğer bir değişiklik varsa görünümü yeniden oluşturur.**
 
