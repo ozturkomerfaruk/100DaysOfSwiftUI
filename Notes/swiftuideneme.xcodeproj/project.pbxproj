@@ -52,6 +52,9 @@
 		04D2C0B5299B673900263189 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2C0B4299B673900263189 /* AnimationView.swift */; };
 		04D2C0B7299B6F2100263189 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2C0B6299B6F2100263189 /* TransitionView.swift */; };
 		04D2C0B9299B735700263189 /* SheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2C0B8299B735700263189 /* SheetsView.swift */; };
+		CFC61582299E04B800FB3B25 /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC61581299E04B800FB3B25 /* AppStorageView.swift */; };
+		CFC61585299E069600FB3B25 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC61584299E069600FB3B25 /* IntroView.swift */; };
+		CFC61587299E07F000FB3B25 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC61586299E07F000FB3B25 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +123,9 @@
 		04D2C0B4299B673900263189 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		04D2C0B6299B6F2100263189 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 		04D2C0B8299B735700263189 /* SheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsView.swift; sourceTree = "<group>"; };
+		CFC61581299E04B800FB3B25 /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
+		CFC61584299E069600FB3B25 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		CFC61586299E07F000FB3B25 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				04525F32299A28DD00468C30 /* SwiftfulThinking */,
+				CFC61583299E067C00FB3B25 /* OnboardingViews */,
 				04525F04299A0FD100468C30 /* swiftuidenemeApp.swift */,
 				04525F08299A0FD100468C30 /* Assets.xcassets */,
 				04525F0A299A0FD100468C30 /* Preview Content */,
@@ -245,8 +252,18 @@
 				040A6F7D299BC4060083A490 /* TapGestureView.swift */,
 				040A6F7F299BC4990083A490 /* ViewModelObjectView.swift */,
 				040A6F81299BC9640083A490 /* EnvironmentobiectView.swift */,
+				CFC61581299E04B800FB3B25 /* AppStorageView.swift */,
 			);
 			path = SwiftfulThinking;
+			sourceTree = "<group>";
+		};
+		CFC61583299E067C00FB3B25 /* OnboardingViews */ = {
+			isa = PBXGroup;
+			children = (
+				CFC61584299E069600FB3B25 /* IntroView.swift */,
+				CFC61586299E07F000FB3B25 /* OnboardingView.swift */,
+			);
+			path = OnboardingViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,6 +420,7 @@
 				040A6F64299BA2C10083A490 /* ActionSheetView.swift in Sources */,
 				040A6F6E299BB41E0083A490 /* PickerView.swift in Sources */,
 				04525F46299A53D200468C30 /* ScrollViewView.swift in Sources */,
+				CFC61587299E07F000FB3B25 /* OnboardingView.swift in Sources */,
 				04525F34299A291100468C30 /* SymbolsView.swift in Sources */,
 				04525F07299A0FD100468C30 /* ShapesView.swift in Sources */,
 				04525F31299A24A300468C30 /* ColorView.swift in Sources */,
@@ -412,7 +430,9 @@
 				04525F05299A0FD100468C30 /* swiftuidenemeApp.swift in Sources */,
 				040A6F68299BA7350083A490 /* TextFieldView.swift in Sources */,
 				04525F4A299A6F3900468C30 /* IgnoringSafeAreaView.swift in Sources */,
+				CFC61582299E04B800FB3B25 /* AppStorageView.swift in Sources */,
 				040A6F78299BB9260083A490 /* TabViewView.swift in Sources */,
+				CFC61585299E069600FB3B25 /* IntroView.swift in Sources */,
 				04D2C0B3299B653800263189 /* ConditionalStatementView.swift in Sources */,
 				04D2C0B5299B673900263189 /* AnimationView.swift in Sources */,
 				040A6F6C299BB2630083A490 /* ToggleView.swift in Sources */,

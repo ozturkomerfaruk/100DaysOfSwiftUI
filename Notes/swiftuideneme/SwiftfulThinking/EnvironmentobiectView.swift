@@ -57,6 +57,7 @@ struct DetailView: View {
                 .font(.largeTitle)
             NavigationLink {
                 FinalView()
+                    
             } label: {
                 Text("Final View")
                     .foregroundColor(.white)
@@ -70,20 +71,27 @@ struct DetailView: View {
 }
 
 struct FinalView: View {
-    @EnvironmentObject var viewModel: EnviromentalViewModel
+    
     
     var body: some View {
         ZStack {
             LinearGradient(colors: [.black, .green, .white], startPoint: .leading, endPoint: .trailing).ignoresSafeArea(.all)
             ScrollView {
-                VStack (spacing: 20) {
-                    ForEach (viewModel.dataArray, id: \.self) { item in
-                        Text (item)
-                            .foregroundColor (.white)
-                            .font(.largeTitle)
-                        
-                    }
-                }
+                ExtractedView()
+            }
+        }
+    }
+}
+
+struct ExtractedView: View {
+    @EnvironmentObject var viewModel: EnviromentalViewModel
+    var body: some View {
+        VStack (spacing: 20) {
+            ForEach (viewModel.dataArray, id: \.self) { item in
+                Text (item)
+                    .foregroundColor (.white)
+                    .font(.largeTitle)
+                
             }
         }
     }

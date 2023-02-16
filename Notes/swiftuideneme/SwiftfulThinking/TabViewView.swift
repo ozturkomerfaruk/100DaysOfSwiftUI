@@ -27,6 +27,7 @@ struct TabViewView: View {
                     Text("Globe")
                 }.tag(2)
         }
+        //.tabViewStyle(DefaultTabViewStyle())
         .tabViewStyle(PageTabViewStyle())
         .background(LinearGradient(colors: [.red, .yellow], startPoint: .bottom, endPoint: .top))
     }
